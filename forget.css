@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+  background-color: rgb(204, 249, 234);
+}
+
+.pin-container {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.pin-container input[type="password"] {
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.key {
+  width: 90px;
+  height: 90px;
+  font-size: 20px;
+  background-color: #fada5e;
+}

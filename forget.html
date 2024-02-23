@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lock</title>
+    <link rel="stylesheet" href="forget.css" />
+  </head>
+  <body>
+    <h1>Lock sceen</h1>
+    <div class="pin-container">
+      <input type="password" id="pin-input" disabled />
+      <div class="keypad">
+        <button class="key" onclick="addPin(1)">1</button>
+        <button class="key" onclick="addPin(2)">2</button>
+        <button class="key" onclick="addPin(3)">3</button>
+        <button class="key" onclick="addPin(4)">4</button>
+        <button class="key" onclick="addPin(5)">5</button>
+        <button class="key" onclick="addPin(6)">6</button>
+        <button class="key" onclick="addPin(7)">7</button>
+        <button class="key" onclick="addPin(8)">8</button>
+        <button class="key" onclick="addPin(9)">9</button>
+        <button class="key" onclick="clearPin()">پاک</button>
+        <button class="key" onclick="addPin(0)">0</button>
+        <button class="key" id="submit" onclick="Super()">تایید</button>
+        <div id="msg" class="msghidden"></div>
+        <script src="forget.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
